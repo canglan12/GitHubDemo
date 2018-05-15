@@ -23,7 +23,7 @@ public class HongBao {
 	    return amountList;
 	}
 	public static void main(String[] args){
-	    List<Integer> amountList = divideRedPackage(5000, 30);
+	    List<Integer> amountList = divideRedPackage(5000,20);
 	    for(Integer amount : amountList){
 	        System.out.println("ÇÀµ½½ð¶î£º" + new BigDecimal(amount).divide(new BigDecimal(100)));
 	    }
